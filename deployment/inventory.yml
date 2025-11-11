@@ -1,6 +1,6 @@
 all:
   hosts:
-    <your_server_hostname>:
-      ansible_user: <your_server_username>
-      ed25519_fingerprint: <your_server_ssh_fingerprint>
-      ota_source_repository: <your_repository_url>
+    134.102.58.70:
+      ansible_user: ota
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIDmKHW4LMOEIxnBHkdNzwvSrzjmfhQkx5n2lFtJdraOy
+      ota_source_repository: https://github.com/OpenTermsArchive/genai-eu-declarations.git
